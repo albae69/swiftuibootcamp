@@ -11,6 +11,12 @@
 		B3AAEFDC2A6E31B600AEFB7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AAEFDB2A6E31B600AEFB7B /* ContentView.swift */; };
 		B3AAEFDE2A6E31B700AEFB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AAEFDD2A6E31B700AEFB7B /* Assets.xcassets */; };
 		B3AAEFE22A6E31B700AEFB7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AAEFE12A6E31B700AEFB7B /* Preview Assets.xcassets */; };
+		B3AAEFE92A6E327D00AEFB7B /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AAEFE82A6E327D00AEFB7B /* TextTutorial.swift */; };
+		B3AAEFEB2A6E32BC00AEFB7B /* ShapeTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AAEFEA2A6E32BC00AEFB7B /* ShapeTutorial.swift */; };
+		B3AAEFED2A6E390E00AEFB7B /* ColorTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AAEFEC2A6E390E00AEFB7B /* ColorTutorial.swift */; };
+		B3AAEFEF2A6E3B6D00AEFB7B /* IconsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AAEFEE2A6E3B6D00AEFB7B /* IconsTutorial.swift */; };
+		B3CB46D32A77B5160009DEE7 /* ImageTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB46D22A77B5160009DEE7 /* ImageTutorial.swift */; };
+		B3CB46D72A77BA930009DEE7 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB46D62A77BA930009DEE7 /* StackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		B3AAEFDD2A6E31B700AEFB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3AAEFDF2A6E31B700AEFB7B /* swiftuibootcamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuibootcamp.entitlements; sourceTree = "<group>"; };
 		B3AAEFE12A6E31B700AEFB7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3AAEFE82A6E327D00AEFB7B /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
+		B3AAEFEA2A6E32BC00AEFB7B /* ShapeTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeTutorial.swift; sourceTree = "<group>"; };
+		B3AAEFEC2A6E390E00AEFB7B /* ColorTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTutorial.swift; sourceTree = "<group>"; };
+		B3AAEFEE2A6E3B6D00AEFB7B /* IconsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsTutorial.swift; sourceTree = "<group>"; };
+		B3CB46D22A77B5160009DEE7 /* ImageTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTutorial.swift; sourceTree = "<group>"; };
+		B3CB46D62A77BA930009DEE7 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +64,17 @@
 		B3AAEFD82A6E31B600AEFB7B /* swiftuibootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				B3CB46D22A77B5160009DEE7 /* ImageTutorial.swift */,
 				B3AAEFD92A6E31B600AEFB7B /* swiftuibootcampApp.swift */,
 				B3AAEFDB2A6E31B600AEFB7B /* ContentView.swift */,
+				B3AAEFE82A6E327D00AEFB7B /* TextTutorial.swift */,
 				B3AAEFDD2A6E31B700AEFB7B /* Assets.xcassets */,
 				B3AAEFDF2A6E31B700AEFB7B /* swiftuibootcamp.entitlements */,
 				B3AAEFE02A6E31B700AEFB7B /* Preview Content */,
+				B3AAEFEA2A6E32BC00AEFB7B /* ShapeTutorial.swift */,
+				B3AAEFEC2A6E390E00AEFB7B /* ColorTutorial.swift */,
+				B3AAEFEE2A6E3B6D00AEFB7B /* IconsTutorial.swift */,
+				B3CB46D62A77BA930009DEE7 /* StackView.swift */,
 			);
 			path = swiftuibootcamp;
 			sourceTree = "<group>";
@@ -140,7 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3AAEFDC2A6E31B600AEFB7B /* ContentView.swift in Sources */,
+				B3AAEFE92A6E327D00AEFB7B /* TextTutorial.swift in Sources */,
+				B3AAEFEF2A6E3B6D00AEFB7B /* IconsTutorial.swift in Sources */,
+				B3CB46D72A77BA930009DEE7 /* StackView.swift in Sources */,
 				B3AAEFDA2A6E31B600AEFB7B /* swiftuibootcampApp.swift in Sources */,
+				B3CB46D32A77B5160009DEE7 /* ImageTutorial.swift in Sources */,
+				B3AAEFEB2A6E32BC00AEFB7B /* ShapeTutorial.swift in Sources */,
+				B3AAEFED2A6E390E00AEFB7B /* ColorTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
